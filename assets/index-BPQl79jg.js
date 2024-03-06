@@ -1,0 +1,1 @@
+import{h as e,i as a,j as s}from"./index-DqkMC8ta.js";import{P as o}from"./index-Be7dxibf.js";import{T as r}from"./index-Bm8y5eJH.js";const l=()=>{const t=e(a);return s.jsx(o,{title:"Tasks",children:s.jsx(r,{tasks:t})})};export{l as default};

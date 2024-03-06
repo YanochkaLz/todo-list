@@ -1,0 +1,1 @@
+import{h as e,k as o,j as s}from"./index-DqkMC8ta.js";import{P as a}from"./index-Be7dxibf.js";import{T as r}from"./index-Bm8y5eJH.js";const c=()=>{const t=e(o);return s.jsx(a,{title:"Completed tasks",children:s.jsx(r,{tasks:t})})};export{c as default};
