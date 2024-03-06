@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;800;900&display=swap');
+
+:root {
+	--accent-color: rgb(109, 124, 200);
+	--custom-shadow: 0 0 5px 1px grey;
+
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #333 !important;
+	margin: 0;
+}
+
+.layout {
+	min-height: calc(100vh);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-image: url('/images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main {
+	flex: 1;
+	padding: 30px;
+}
+
+.bg-primary {
+	background-color: var(--accent-color) !important;
+	display: inline-block;
+}
+
+.badge {
+	width: 25px;
+	margin-left: 6px;
+	padding: 3px 2px;
+}
+
+a {
+	color: var(--accent-color);
+}
+
+.accordion-button {
+	background-color: var(--bs-gray-300) !important;
+	width: fit-content;
+	position: absolute;
+	top: -25px;
+	right: 0;
+	padding: 2px;
+}
+
+.accordion-header {
+	display: flex;
+	position: relative;
+	justify-content: end;
+	background-color: var(--bs-gray-300) !important;
+}
+
+.accordion-item {
+	background-color: transparent;
+}
+
+.accordion-body {
+	background-color: var(--bs-gray-400);
+	margin-top: 20px;
+	border-radius: 20px;
+	font-size: 16px;
+}
+
+.accordion-button:hover,
+.accordion-button.collapsed:hover {
+	box-shadow: 0 0 2px 2px var(--accent-color) !important;
+}
+
+.accordion-button:focus {
+	box-shadow: none;
+}
